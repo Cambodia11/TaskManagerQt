@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>C:/Users/Admin/Downloads/song1.mp3</file>
+        <file>C:/Users/Admin/Downloads/song2.mp3</file>
+        <file>resources/background.mp4</file>
+        <file>resources/ico.ico</file>
+    </qresource>
+</RCC>

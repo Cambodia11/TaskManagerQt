@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1278</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LayoutDirection::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1301</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="PrintPage">
+     <widget class="QLabel" name="label11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>-190</y>
+        <width>1191</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation is a forward-thinking and innovative company dedicated to promoting sustainable development and providing advanced technology solutions. We strive to create meaningful impact by empowering local communities and businesses across Cambodia. Our team is committed to delivering high-quality services that foster economic growth, environmental responsibility, and social progress. Through a combination of cutting-edge technology and ethical business practices, By Cambodia Corporation aims to be a leading force in driving positive change and long-term value for our clients and partners.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Menu">
+     <widget class="QLabel" name="label_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>600</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>All data is saved</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>499</x>
+        <y>220</y>
+        <width>311</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="MenuAddTask">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Добавить задачу</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="TaskListMenu">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Список задач</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="StatusSwitch_2">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Отметить задачу выполненной</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pagedeleteTask">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Удалить задачу</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteAllTask">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Удалить все задачи</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>90</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Cambodia Task List</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Меню </string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>11</y>
+        <width>1279</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="videoPage">
+     <widget class="QVideoWidget" name="videoWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>711</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="AddTask">
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>400</y>
+        <width>283</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="btnAddTask">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Добавить задачу</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1279</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>510</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>All data is saved</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>-280</x>
+        <y>80</y>
+        <width>1231</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Список Задач</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="newTask">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>290</y>
+        <width>541</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>560</y>
+        <width>283</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="btnBack_2">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Выйти в меню</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>200</y>
+        <width>1231</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Добавьте задачу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="taskTable">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>681</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>681</width>
+        <height>501</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TaskList">
+     <widget class="QLabel" name="label_9">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>60</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Список Задач</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>570</y>
+        <width>283</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="btnBack">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Выйти в меню</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>120</y>
+        <width>681</width>
+        <height>501</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="StatusSwitch">
+     <widget class="QLabel" name="label_11">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>570</y>
+        <width>283</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QPushButton" name="btnBack_3">
+         <property name="font">
+          <font>
+           <family>Bahnschrift</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Выйти в меню</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>150</y>
+        <width>681</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="label_13">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>1231</width>
+         <height>69</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Bahnschrift</family>
+         <pointsize>22</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="midLineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Добавьте задачу</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>110</y>
+         <width>1281</width>
+         <height>69</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Bahnschrift</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="midLineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Нажмите на статус</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string> Нажмите на статус задачи</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="deleteTask">
+     <widget class="QLineEdit" name="buttonindexdelete">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>280</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnBack_4">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>490</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выйти в меню</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>200</y>
+        <width>1231</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Удалите задачу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>410</y>
+        <width>1281</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>All data is saved</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1279</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>By Cambodia Corporation</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>681</width>
+        <height>501</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttondeleteTask">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>360</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Удалить задачу</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>-280</x>
+        <y>80</y>
+        <width>1231</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Список Задач</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByKeyboard</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>qvideowidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

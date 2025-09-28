@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources/song1.mp3">D:/C++/Qt/Test/resources/song1.mp3</file>
+    <file alias="resources/song2.mp3">D:/C++/Qt/Test/resources/song2.mp3</file>
+  </qresource>
+</RCC>
+

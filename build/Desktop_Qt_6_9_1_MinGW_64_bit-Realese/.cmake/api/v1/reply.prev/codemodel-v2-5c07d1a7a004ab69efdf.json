@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b3b8481d32fa8e6c4839.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-Release-65dae57b4fdf964a1258.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_autogen-Release-1f5140585616428021f9.json",
+					"name" : "Test_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_autogen_timestamp_deps-Release-40939dfc0f718f114bcd.json",
+					"name" : "Test_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C++/Qt/Test/build/Desktop_Qt_6_9_1_MinGW_64_bit-Realese",
+		"source" : "D:/C++/Qt/Test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
