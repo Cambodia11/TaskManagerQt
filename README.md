@@ -23,8 +23,6 @@ Features include adding, marking, and deleting tasks with a custom UI.
 
 ![intro3](images/intro3.jpg)
 
-● background music
-
 ● Menu
 
 ![menu](images/menu.jpg)
