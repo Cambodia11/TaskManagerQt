@@ -1,5 +1,7 @@
 # Task List Desktop Application
 
+[🇷🇺 Читать на русском](README.ru.md)
+
 A simple task manager built with **C++ and Qt**.  
 Features include adding, marking, and deleting tasks with a custom UI.
 
@@ -7,37 +9,19 @@ Features include adding, marking, and deleting tasks with a custom UI.
 
 ● Custom UI design with intro video and background music 
 
-
-
 ## ✨ Features
-
-● intro video
-
-![intro](images/Intro.jpg)
-
-● intro page 2
-
-![intro2](images/intro2.jpg)
-
-● intro typing text to the sound of a typewriter
-
-![intro3](images/intro3.jpg)
-
-● Menu
-
-![menu](images/menu.jpg)
 
 ● Add new tasks
 
-![add](images/add.jpg)
-
 ● Mark tasks as *in progress* or *completed* 
-
-![switch](images/switch.jpg)
 
 ● Delete one or all tasks 
 
-![delete](images/delete.jpg)
- 
-
+ ![intro](images/Intro.jpg)
+ ![intro2](images/intro2.jpg)
+ ![intro3](images/intro3.jpg)
+ ![menu](images/menu.jpg)
+ ![add](images/add.jpg)
+ ![switch](images/switch.jpg)
+ ![delete](images/delete.jpg)
 
