@@ -13,33 +13,33 @@ Features include adding, marking, and deleting tasks with a custom UI.
 
 ● intro video
 
-!(images/intro.jpg)
+![intro](images/intro.jpg)
 
 ● intro page 2
 
-!(images/intro2.jpg)
+![intro2](images/intro2.jpg)
 
 ● intro typing text to the sound of a typewriter
 
-!(images/intro3.jpg)
+![intro3](images/intro3.jpg)
 
 ● background music
 
 ● Menu
 
-!(images/menu.jpg)
+![menu](images/menu.jpg)
 
 ● Add new tasks
 
-!(images/add.jpg)
+![add](images/add.jpg)
 
 ● Mark tasks as *in progress* or *completed* 
 
-!(images/switch.jpg)
+![switch](images/switch.jpg)
 
 ● Delete one or all tasks 
 
-!(images/delete.jpg)
+![delete](images/delete.jpg)
  
 
 
