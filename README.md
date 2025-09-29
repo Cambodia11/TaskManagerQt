@@ -13,7 +13,7 @@ Features include adding, marking, and deleting tasks with a custom UI.
 
 ● intro video
 
-![intro](images/intro.jpg)
+![intro](images/Intro.jpg)
 
 ● intro page 2
 
